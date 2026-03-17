@@ -4,7 +4,7 @@ import {
 } from '@angular/core';
 import { provideRouter, withComponentInputBinding } from '@angular/router';
 import { HomeComponent } from './home.component';
-import { UserFormComponent } from './user-form.component';
+import { UserFormComponent } from './user-form/user-form.component';
 
 export const appConfig: ApplicationConfig = {
   providers: [
